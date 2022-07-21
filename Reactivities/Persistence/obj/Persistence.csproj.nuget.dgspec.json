@@ -4,14 +4,14 @@
     "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj",
-        "projectName": "Persistence",
-        "projectPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Sndwandwe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Persistence\\obj\\",
+        "outputPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sndwandwe\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,74 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\Sndwandwe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sndwandwe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
