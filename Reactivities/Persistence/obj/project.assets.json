@@ -1087,23 +1087,24 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Domain >= 1.0.0",
+      "Microsoft.EntityFrameworkCore >= 6.0.3",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sndwandwe\\.nuget\\packages\\": {}
+    "C:\\Users\\Sazi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj",
-      "packagesPath": "C:\\Users\\Sndwandwe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Persistence\\obj\\",
+      "projectPath": "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj",
+      "packagesPath": "C:\\Users\\Sazi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sndwandwe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Sazi\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1115,8 +1116,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj"
+            "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj"
             }
           }
         }
@@ -1131,6 +1132,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.3, )"
+          },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[6.0.3, )"
