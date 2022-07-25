@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\API\\API.csproj": {}
+    "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\API\\API.csproj": {
+    "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\Sazi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\API\\obj\\",
+        "projectPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Sndwandwe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sazi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Sndwandwe\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Application\\Application.csproj"
+              "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Application\\Application.csproj"
               }
             }
           }
@@ -42,6 +42,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -52,9 +60,17 @@
               "target": "Package",
               "version": "[6.0.3, )"
             },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
             }
           },
           "imports": [
@@ -79,17 +95,17 @@
         }
       }
     },
-    "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Application\\Application.csproj": {
+    "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Sazi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Application\\obj\\",
+        "projectPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Sndwandwe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sazi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Sndwandwe\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -101,11 +117,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj"
+              "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj"
+              "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -120,9 +136,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
             }
           },
           "imports": [
@@ -144,17 +172,17 @@
         }
       }
     },
-    "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj": {
+    "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Sazi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Sndwandwe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sazi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Sndwandwe\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -178,9 +206,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
             }
           },
           "imports": [
@@ -202,17 +242,17 @@
         }
       }
     },
-    "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\Sazi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Persistence\\obj\\",
+        "projectPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\Sndwandwe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sazi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Sndwandwe\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -224,8 +264,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Sazi\\Documents\\GitHub\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj"
+              "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }
@@ -247,6 +287,14 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
             }
           },
           "imports": [
