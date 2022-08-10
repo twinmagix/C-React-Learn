@@ -8576,11 +8576,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "c:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Sndwandwe\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sndwandwe\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -8651,7 +8651,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
