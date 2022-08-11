@@ -8,7 +8,8 @@ export default function ActivityDetails() {
     const {activityStore} = useStore();
     const {selectedActivity: activity, openForm, cancelSelectedActivity} = activityStore; 
 
-    if (!activity) return <LoadingComponent />;
+    if (!activity) return <LoadingComponent  content= 'Loading activity'/>;
+    //if (loadingInitial) return <LoadingComponent  content='Loading actvity...'/>
 
     return (
         <Card fluid>
