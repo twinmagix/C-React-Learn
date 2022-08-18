@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "AfX9TxkyOhZuNa776jJiA/HKzAhNfnGP1imXp9nTpUlGslr0L+7+y37ru0sUZ2EItBDHM4vKwOFOxwHssfkVvQ==",
+  "dgSpecHash": "dD9PJJfaowMnZcMwVgpDaovgD+kkctAiT8GA9MOSOnJ8xTetXthH0ykJzb/E9H4Vnp5V/ZR+FiFxZ1IxHp2Ypw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Sndwandwe\\Documents\\GIT\\C-React-Learn\\Reactivities\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sndwandwe\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Sndwandwe\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Sndwandwe\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512",
+    "C:\\Users\\Sndwandwe\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.1\\fluentvalidation.aspnetcore.11.2.1.nupkg.sha512",
+    "C:\\Users\\Sndwandwe\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.0\\fluentvalidation.dependencyinjectionextensions.11.2.0.nupkg.sha512",
     "C:\\Users\\Sndwandwe\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Sndwandwe\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\Sndwandwe\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

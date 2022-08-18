@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Sndwandwe\\Documents\\GIT\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj": {
+    "C:\\Users\\Sndwandwe\\Documents\\GIT\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Sndwandwe\\Documents\\GIT\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Sndwandwe\\Documents\\GIT\\C-React-Learn\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Sndwandwe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sndwandwe\\Desktop\\C-React-Learn\\Reactivities\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Sndwandwe\\Documents\\GIT\\C-React-Learn\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sndwandwe\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -41,6 +41,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.1, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
