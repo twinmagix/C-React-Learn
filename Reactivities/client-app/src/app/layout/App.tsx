@@ -11,6 +11,7 @@ import { ToastContainer } from 'react-toastify';
 import NotFound from '../../features/errors/NotFound';
 import { observer } from 'mobx-react-lite';
 import { Switch } from 'react-router-dom';
+import serverError from '../../features/errors/serverError';
 
 function App() {
   const location = useLocation();
@@ -30,6 +31,7 @@ function App() {
                 <Route path='/activities/:id' component={ActivityDetails} />
                 <Route key={location.key} path={['/createActivity', '/manage/:id']} component={ActivityForm} />
                 <Route path='/errors' component={TestErrors} />
+                <Route path='/server-error' component={serverError} />
                 <Route component={NotFound} />
                 </Switch>
               </Container>
